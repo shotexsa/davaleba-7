@@ -7,9 +7,10 @@ body{
 	padding-top:0;
 	
 	}
+
 header{
-	background-color: yellow
-	position:fixed;
+	background-color: yellow;
+	positiion:fixed;
 	top:0;
 	left:0;
 }

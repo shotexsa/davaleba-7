@@ -9,10 +9,10 @@ body{
 	}
 
 header{
-	background-color: yellow;
-	positiion:fixed;
-	top:0;
-	left:0;
+	position:fixed;
+	top:30px;
+	left:35px;
+	z-index:100;
 }
 
 .text{
@@ -28,8 +28,8 @@ header{
 
 li{
 	display:inline-block;
+	font-size:50px;
 	color:white;
-	font-size:30px;
 
 }
 .relative{
@@ -39,7 +39,8 @@ li{
 	position:relative;
 	left:70px;
 	bottom:0;
-	margin-top:300px;
+	margin-top:10px;
+	z-index:80;
 
 }
 .absolute{
@@ -49,5 +50,38 @@ li{
 	position:absolute;
 	left:30px;
 	top:72px;
+	z-index:700;
+
+}
+.navbar-li{
+	color:white;
+	margin-left:50px;
+
+}
+.title{
+	float:right;
+	color:green;
+	margin-top:350px;
+
+}
+.footer{
+	position:fixed;
+	bottom:30px;
+	right:50px;
+	color:yellow;
+	z-index:60;
+}
+.warwera{
+	color:yellow;
+	size:300px;
+	text-align:center;
+	margin-top:100px;
+}
+.sticky{
+    width:670px;
+	position:sticky;
+	right:0;
+	top:0;
+	z-index:90;
 
 }
